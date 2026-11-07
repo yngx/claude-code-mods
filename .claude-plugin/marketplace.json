@@ -1,11 +1,13 @@
 {
   "name": "claude-code-mods",
-  "owner": { "name": "Xao Yang" },
+  "owner": {
+    "name": "Xao Yang"
+  },
   "plugins": [
     {
       "name": "focus",
       "source": "./focus",
-      "description": "Keeps the session's goal in blue under the prompt, with a /working-on pane for done and next steps. Claude updates it as work progresses."
+      "description": "Keeps the session's goal in blue under the prompt, with a /working-on pane for done and next steps and the PRs opened this session (state, checks, review, from GitHub). Claude updates it as work progresses."
     }
   ]
 }

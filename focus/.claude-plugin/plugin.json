@@ -1,7 +1,7 @@
 {
   "name": "focus",
-  "version": "0.1.0",
-  "description": "Shows what the session is working on: the goal in blue under the prompt, and a /working-on pane with done and next steps. Claude keeps it current.",
+  "version": "0.2.0",
+  "description": "Shows what the session is working on: the goal in blue under the prompt, and a /working-on pane with done and next steps plus the pull requests opened this session, with live checks and review state from GitHub. Claude keeps it current.",
   "types": "./types/index.d.ts",
   "author": {
     "name": "Xao Yang"
